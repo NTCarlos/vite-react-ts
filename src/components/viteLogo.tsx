@@ -7,7 +7,7 @@ function ViteLogo() {
     
     return (
         <a href={VITE_URL} target="_blank">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
+            <img src={viteLogo} className="w-20" alt="Vite logo" />
         </a>
     )
 }

@@ -7,7 +7,7 @@ function ReactLogo() {
 
     return (
         <a href={REACT_URL} target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={reactLogo} className="w-20" alt="React logo" />
         </a>
     )
 }

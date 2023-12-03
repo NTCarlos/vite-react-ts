@@ -17,7 +17,7 @@ function Facts() {
     }
 
     return (
-        <h5>{response ? response.fact : 'Loading...'}</h5>
+        <h5 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-2xl mt-2'>{response ? response.fact : 'Loading...'}</h5>
     )
 }
 
