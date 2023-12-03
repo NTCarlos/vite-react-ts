@@ -1,17 +1,15 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import CountButton from './components/countButton'
-import Facts from './components/facts'
+import reactLogo from './assets/react.svg';
+import './App.css';
+import CountButton from './components/countButton';
+import Facts from './components/facts';
+import ViteLogo from './components/viteLogo';
 
 function App() {
 
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
+        <ViteLogo />
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
