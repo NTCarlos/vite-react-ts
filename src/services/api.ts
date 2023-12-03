@@ -1,8 +1,8 @@
-import axios from 'axios';
-import { factModel } from '../models/factModel';
-import appSettings from '../utils/appSettings';
+import axios from 'axios'
+import { factModel } from '../models/factModel'
+import appSettings from '../utils/appSettings'
 
-const FACT_URL = appSettings.factUrl;
+const FACT_URL = appSettings.factUrl
 
 export async function getCatFacts(): Promise<factModel>{
   const res = await axios({
@@ -11,6 +11,6 @@ export async function getCatFacts(): Promise<factModel>{
     headers: {
       'Content-Type': 'application/json',
     }
-  });
-  return await res.data;
+  })
+  return await res.data
 }
